@@ -1,0 +1,4 @@
+after cool pose make ryu go back to last stance without moving the mouse out of it.
+
+
+I will need variables to accomplish ^^^^
