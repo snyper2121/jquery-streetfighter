@@ -25,15 +25,24 @@ $(document).ready(function() {
   		$('.ryu-ready').show();
 	});
 	$(document).keydown(function (e) {
+
+		var key = e.which;
+		console.log ('user pressed the ' + key + ' key');
+
+
+
   		if (e.which == 88) {
-        $('.ryu-pose').show();
-        $('.ryu-still').hide();
+  			console.log('user pressed keydown pressed x');
+  			$('.ryu-ready').hide();
+  			$('.ryu-still').hide();
+        	$('.ryu-pose').show();
     	}
 	})
 	$(document).keyup(function (e) {
   		if (e.which == 88) {
-        $('.ryu-pose').hide();
-        $('.ryu-still').show();
+  			console.log('user released x button');
+        	$('.ryu-pose').hide();
+        	$('.ryu-still').show();
     	}
 	})
 });
