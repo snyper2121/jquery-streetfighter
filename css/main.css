@@ -66,3 +66,28 @@ body {
   z-index: 10;
 }
 
+.instructions {
+	position: absolute;
+	min-width: 600px;
+	min-height: 425px;
+	left: 650px;
+	padding-top: 60px;
+	padding-bottom: 20px
+}
+
+.how-to {
+	font-family: 'Bangers', cursive;
+	font-size: 50px;
+	width: 800px;
+	z-index: 50;
+}
+
+.p1 {
+	margin: 0px;
+	padding-right: 500px 
+}
+
+.p2 {
+	margin: 0px;
+	padding-left: 500px
+}
